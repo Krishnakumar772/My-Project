@@ -1,0 +1,35 @@
+h1.pageHeading {
+  font-size: xx-large;
+  font-style: normal;
+  text-align: center;
+  padding-right: 60px;
+  font-weight: bolder;
+}
+ol {
+  margin: 0;
+  padding: 0 100px;
+
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.leftContent,
+.rightContent {
+  flex-basis: 45%;
+  padding: 0 15px;
+}
+.description {
+  padding: 0 15px;
+}
+
+/* mobile devices */
+@media (max-width: 685px) {
+  .leftContent,
+  .rightContent {
+    flex-basis: 100%;
+  }
+  h4.subHeading {
+    text-align: center;
+  }
+}

@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  text-align: center;
+  flex-basis: 33%;
+  margin-bottom: 20px;
+  padding-top: 15px;
+  
+}
+.p3 {
+ padding-right: 110px;
+ 
+}
+.card:hover {
+  background-color: rgb(180, 91, 231);
+  border-radius: 10px;
+  opacity: 0.5px;
+  
+ }
+
+.card :hover { 
+  color: white;
+}
+
+/* .card:hover,h4 ,p {
+}
+ */
+
+.card h4 {
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  padding-right: 110px;
+  text-align: center;
+ 
+}
+.icon {
+  font-size: 48px;
+  color: #13a0b2;
+}
+.btn {
+  padding: 10px 20px;
+  color: white;
+  background-color: #13a0b2;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  border: none;
+}
+.btn a {
+  text-decoration: none;
+}
+/* mobile devices */
+@media (max-width: 567px) {
+  .card {
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 567px) {
+  .card {
+    flex-basis: 50%;
+  }
+}
